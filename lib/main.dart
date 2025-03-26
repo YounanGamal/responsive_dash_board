@@ -14,7 +14,7 @@ class ResponsiveDashBoard extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Responsive Dash Board',
       theme: ThemeData(primarySwatch: Colors.blue),
-      home: DashBoardView(),
+      home: const DashBoardView(),
     );
   }
 }
